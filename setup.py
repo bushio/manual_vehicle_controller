@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'manual_vehicle_vontroller_node = manual_vehicle_controller.manual_vehicle_controller:main',
+            'manual_vehicle_controller_node = manual_vehicle_controller.manual_vehicle_controller:main',
         ],
     },
 )
